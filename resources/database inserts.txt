@@ -1,0 +1,7 @@
+/******************** Database Inserts ************************************/
+
+INSERT INTO `species` (`id`, `common_name`, `scientific_name`, `region`, `category`, `conservation_status`, `lat_long`) VALUES ('2', 'Brush-tailed Rock-wallaby', 'Petrogale penicillata', 'New South Wales', 'mammals', 'Vulnerable', 'lat: -37.24999999999994, lng: 146.98, lat: -37.20999999999998, lng: 146.98, lat: -37.20999999999998, lng: 146.9400000000001, lat: -37.23999999999995, lng: 146.9400000000001, lat: -37.23999999999995, lng: 146.95, lat: -37.24999999999994, lng: 146.95, lat: -37.24999999999994, lng: 146.98, lat: -37.00999999899994, lng: 147.0700000000001, lat: -37.02999999999997, lng: 147.0700000000001, lat: -37.02999999999997, lng: 147.099999999, lat: -37.00999999899994, lng: 147.099999999, lat: -37.00999999899994, lng: 147.0700000000001');
+
+INSERT INTO `species` (`id`, `common_name`, `scientific_name`, `region`, `category`, `conservation_status`, `lat_long`) VALUES (NULL, 'Great Glider', 'Petauroides volans', 'Victoria', 'mammals', 'Vulnerable', '[{ lng: 146.3700000000001, lat: -38.64999999999998},\r\n{ lng: 146.36, lat: -38.64999999999998 },\r\n{ lng: 146.36, lat: -38.63999999999993},\r\n{ lng: 146.3700000000001, lat: -38.63999999999993 },\r\n{ lng: 146.3700000000001, lat: -38.64999999999998}]');
+
+

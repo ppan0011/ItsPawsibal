@@ -1,0 +1,188 @@
+/* Section 1: Laravel inbuilt CSS changes */
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Teko' !important;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+/* Section 1: Ends here */
+
+/* Section 2: Navigation bar */
+.navbar {
+	background: #218904 !important;
+	font-size: 25px;
+    padding-right: 20px;
+}
+.navbar-dark .navbar-toggler {
+	border: 0px solid black !important;
+}
+.navbar-brand {
+    font-family: 'Brush Script MT', cursive;
+    color: #FFF !important;
+    font-size: 33px !important;
+    font-weight: bolder;
+}
+.navbar-img {
+	width: 100px;
+}
+.nav-item {
+	color: #FFF !important;
+}
+/* Section 2: Ends here */
+
+/* Section 3: Carousel */
+#carouselExampleControls img {
+	opacity: 0.9;
+}
+.carousel-title {
+	text-shadow: 3px 3px #000000;
+}
+
+.carousel-control-prev-icon{
+  background: #f00 none repeat scroll 0 0;
+  border: 0 none;
+  border-radius: 50%;
+  height: 30px;
+  margin: 3px;
+  opacity: 0.5;
+  width: 30px;
+}
+/* Section 3: Ends here */
+
+/*Section 4: Categories */
+.rounded-circle {
+	width: 280px !important;
+	height: 200px !important;
+	margin-left: auto;
+    box-shadow: 5px 2px 5px 0px rgba(0, 0, 0, 1);
+  	margin-right: auto;
+  	display: block;
+  	opacity:0.9;
+}
+.card {
+	text-align: center!important;
+	border: none !important;
+	background: transparent !important;
+}
+.categoryContent {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-style: none; 
+}
+/* */
+
+/* Section : Media Queries */
+@media only screen and (max-width: 400px) {
+	#carouselExampleControls img {
+		width: auto;
+		height: 225px;
+		max-height: 225px;
+	}
+	.carousel-title{
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 401px) and (max-width: 600px) {
+	#carouselExampleControls img {
+		width: auto;
+		height: 300px;
+		max-height: 300px;
+	}
+	.carousel-title{
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+	#carouselExampleControls img {
+		width: auto;
+		height: 400px ;
+		max-height: 400px ;
+	}
+	.carousel-title{
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 801px) and (max-width: 1000px) {
+	#carouselExampleControls img {
+		width: auto ;
+		height: 500px ;
+		max-height: 500px ;
+	}
+	.carousel-title{
+		font-size: 30px;
+	}
+}
+
+@media (min-width: 1001px) and (max-width: 1900px) {
+	#carouselExampleControls img {
+		width: auto ;
+		height: 500px ;
+		max-height: 500px ;
+	}
+	.carousel-title{
+		font-size: 35px;
+	}
+}
+/* Section : Ends here */
+
+#map {
+	display: table;
+	width: 100%;
+	height: 300px;
+}
+
+.stats {
+	text-align: center;
+	font-size: 50px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.stats-details {
+	padding-left: 20px;
+	display: inline-flex;
+	height:250px;
+	max-height: 250px;
+	width: 90%;
+	float: left;
+	background-color: #63A362;
+	margin-bottom: 20px;
+}
+
+.stats-details-right {
+	padding-left: 20px;
+	display: inline-flex;
+	height:250px;
+	max-height: 250px;
+	width: 90%;
+	background: transparent;
+	float: right;
+	background-color: #63A362;
+	margin-bottom: 20px;
+}
+.stats-details img {
+	margin-left: 15%;
+	height:250px;
+	max-height: 250px;
+}
+
+#counter {
+	display: flex;
+	text-align: center;
+}
+
+.counter-value {
+	border: 3px solid #064005;
+	border-radius: 50%;
+	width: 200px;
+	padding: 30px;
+	text-align: center;
+	display: inline-block;
+	margin: 30px;
+}

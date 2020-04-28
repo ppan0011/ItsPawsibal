@@ -12,8 +12,8 @@
             
             <div id="main-nav" class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
-                    <!-- <li><a href="#" class="nav-item nav-link active">Home</a></li>
-                    <li><a href="#" class="nav-item nav-link">About Us</a></li>
+                    <li><a href="{{ url('/') }}" class="nav-item nav-link active">Home</a></li>
+                    <li><a href="{{ url('credits') }}" class="nav-item nav-link">Credits</a></li>
                     <li class="dropdown">
                         <a href="#" class="nav-item nav-link" data-toggle="dropdown">Services</a>
                         <div class="dropdown-menu">
@@ -21,7 +21,7 @@
                             <a href="#" class="dropdown-item">Dropdown Item 2</a>
                             <a href="#" class="dropdown-item">Dropdown Item 3</a>
                         </div>
-                    </li> -->
+                    </li>
                 </ul>
             </div>
         </div>

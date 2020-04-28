@@ -23,11 +23,28 @@ Route::get('/', 'HomeController@index')->name('home');
 
 
 Route::get('categories', function () {
-    // return view('species/speciesLandingPage');
     return view('species/speciesLandingPage');
 });
 
-Route::resource('species','SpeciesController');
+Route::get('locationVulnerability', function () {
+    return view('species/user-location');
+});
 
-Route::get('/species/show/', 'SpeciesController@show');
+Route::get('rock-wallaby', function () {
+    return view('species/wallaby');
+});
+
+Route::get('potoroo', function () {
+    return view('species/potoroo');
+});
+
+Route::get('possum', function () {
+    return view('species/possum');
+});
+
+Route::get('credits', function () {
+    return view('credits');
+});
+
+Route::resource('species','SpeciesController');
 Route::get('/species/getRecordsByRegion/{region}/{common_name}', 'SpeciesController@getRecordsByRegion');
